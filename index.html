@@ -1,0 +1,1057 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+
+<title>Mahakal Fitness Hub — Professional Gym & Wellness Center (20% OFF on New Joining)</title>
+<meta name="description" content="Personal training, CrossFit, strength training, yoga classes, and diet planning by Mahakal Fitness Hub. Get Flat 20% Discount on New Joining.">
+<meta name="robots" content="index, follow">
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cabinet+Grotesk:wght@600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<!-- Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+
+<style>
+:root {
+  --bg-deep: #090a10;
+  --bg-surface: #10121c;
+  --bg-card: #161828;
+  --bg-card-hover: #1e2238;
+  --accent-gold: #f59e0b;
+  --accent-gold-light: #fbbf24;
+  --accent-rose: #f43f5e;
+  --text-main: #f8fafc;
+  --text-muted: #94a3b8;
+  --border-line: rgba(255, 255, 255, 0.08);
+  --border-gold: rgba(245, 158, 11, 0.4);
+  --grad-gold: linear-gradient(135deg, #fbbf24 0%, #f59e0b 50%, #d97706 100%);
+  --grad-rose: linear-gradient(135deg, #f43f5e 0%, #e11d48 100%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  background-color: var(--bg-deep);
+  color: var(--text-main);
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  line-height: 1.6;
+  overflow-x: hidden;
+  width: 100%;
+}
+
+h1, h2, h3, h4, .brand-logo, .massive-offer {
+  font-family: 'Cabinet Grotesk', sans-serif;
+  letter-spacing: -0.5px;
+}
+
+/* NAVBAR */
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  padding: 14px 6%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  background: rgba(9, 10, 16, 0.94);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-bottom: 1px solid var(--border-line);
+}
+
+.brand-logo {
+  font-size: 24px;
+  font-weight: 800;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+}
+
+.brand-badge {
+  width: 34px;
+  height: 34px;
+  border-radius: 9px;
+  background: var(--grad-gold);
+  color: #090a10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  flex-shrink: 0;
+}
+
+.brand-logo span {
+  color: var(--accent-gold);
+}
+
+.nav-links {
+  display: flex;
+  gap: 24px;
+}
+
+.nav-links a {
+  color: var(--text-muted);
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+  transition: 0.25s ease;
+}
+
+.nav-links a:hover {
+  color: var(--accent-gold);
+}
+
+/* RESPONSIVE HEADER BUTTON */
+.nav-action-btn {
+  background: var(--grad-gold);
+  color: #090a10;
+  font-weight: 800;
+  font-size: 13px;
+  padding: 9px 18px;
+  border-radius: 50px;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  transition: 0.3s;
+  box-shadow: 0 4px 15px rgba(245, 158, 11, 0.3);
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.nav-action-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(245, 158, 11, 0.5);
+}
+
+.nav-action-btn .btn-short-txt {
+  display: none;
+}
+
+/* TOP WELCOME OFFER STRIP */
+.offer-top-strip {
+  margin-top: 62px;
+  background: linear-gradient(90deg, rgba(244, 63, 94, 0.15), rgba(245, 158, 11, 0.15));
+  border-bottom: 1px solid rgba(245, 158, 11, 0.3);
+  padding: 9px 4%;
+  text-align: center;
+  font-size: 12.5px;
+  font-weight: 700;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.offer-tag-btn {
+  background: var(--grad-rose);
+  color: #fff;
+  padding: 2px 8px;
+  border-radius: 12px;
+  font-size: 10.5px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+/* HERO WRAPPER */
+.hero-wrapper {
+  padding: 30px 6% 50px;
+  max-width: 1300px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.hero-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 14px;
+  background: rgba(245, 158, 11, 0.12);
+  border: 1px solid var(--border-gold);
+  border-radius: 50px;
+  font-size: 12px;
+  font-weight: 800;
+  color: var(--accent-gold-light);
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+
+.hero-content h1 {
+  font-size: clamp(32px, 7vw, 54px);
+  font-weight: 900;
+  line-height: 1.15;
+  margin-bottom: 16px;
+}
+
+.hero-content h1 span {
+  background: var(--grad-gold);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero-content p {
+  color: var(--text-muted);
+  font-size: clamp(14px, 4vw, 16px);
+  line-height: 1.65;
+  margin-bottom: 22px;
+}
+
+.hero-highlights {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 26px;
+}
+
+.h-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 13.5px;
+  color: #e2e8f0;
+  font-weight: 600;
+}
+
+.h-item i {
+  color: var(--accent-gold);
+  font-size: 15px;
+}
+
+.hero-actions {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
+.btn-primary {
+  background: var(--grad-gold);
+  color: #090a10;
+  font-weight: 800;
+  font-size: 14px;
+  padding: 13px 26px;
+  border-radius: 12px;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  transition: 0.3s;
+}
+
+.btn-primary:active, .btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 25px rgba(245, 158, 11, 0.4);
+}
+
+.btn-ghost {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid var(--border-line);
+  color: #fff;
+  font-weight: 700;
+  font-size: 14px;
+  padding: 13px 22px;
+  border-radius: 12px;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  transition: 0.3s;
+}
+
+/* TYPOGRAPHIC MASSIVE OFFER CARD */
+.offer-hero-card {
+  width: 100%;
+  border-radius: 24px;
+  border: 2px solid var(--accent-gold);
+  background: radial-gradient(circle at 50% 20%, rgba(245, 158, 11, 0.2) 0%, rgba(22, 24, 40, 0.95) 70%);
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8), 0 0 40px rgba(245, 158, 11, 0.2);
+  padding: 34px 24px;
+  text-align: center;
+  position: relative;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.3s ease;
+}
+
+.offer-hero-card:hover {
+  transform: translateY(-4px);
+}
+
+.card-top-tag {
+  background: var(--grad-rose);
+  color: #fff;
+  padding: 6px 16px;
+  border-radius: 20px;
+  font-size: 11px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  margin-bottom: 14px;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.sub-call {
+  font-size: 15px;
+  font-weight: 700;
+  color: #e2e8f0;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+.massive-offer {
+  font-size: clamp(52px, 12vw, 84px);
+  font-weight: 900;
+  line-height: 1;
+  background: var(--grad-gold);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 8px 0;
+  text-shadow: 0 10px 30px rgba(245, 158, 11, 0.3);
+}
+
+.massive-offer-sub {
+  font-size: clamp(20px, 5vw, 28px);
+  font-weight: 800;
+  color: #fff;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+
+.offer-feature-chips {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+  margin: 14px 0 20px;
+}
+
+.o-chip {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid var(--border-line);
+  padding: 4px 12px;
+  border-radius: 12px;
+  font-size: 12px;
+  color: #cbd5e1;
+}
+
+.card-cta-wa {
+  background: #25D366;
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 14px;
+  font-size: 14px;
+  font-weight: 800;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  box-shadow: 0 6px 20px rgba(37, 211, 102, 0.4);
+}
+
+/* STATS STRIP */
+.stats-strip {
+  padding: 20px 6%;
+  background: var(--bg-surface);
+  border-top: 1px solid var(--border-line);
+  border-bottom: 1px solid var(--border-line);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 14px;
+  text-align: center;
+}
+
+.stat-cell {
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid var(--border-line);
+  padding: 12px;
+  border-radius: 12px;
+}
+
+.stat-cell .num {
+  font-family: 'Cabinet Grotesk', sans-serif;
+  font-size: 24px;
+  font-weight: 900;
+  color: var(--accent-gold);
+}
+
+.stat-cell.offer-cell .num {
+  color: #f43f5e;
+}
+
+.stat-cell .lbl {
+  font-size: 11px;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-top: 2px;
+}
+
+/* SECTIONS */
+.section {
+  padding: 60px 6%;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.section-head {
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.section-head span {
+  color: var(--accent-gold);
+  font-size: 11.5px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+}
+
+.section-head h2 {
+  font-size: clamp(26px, 6vw, 36px);
+  font-weight: 800;
+  margin-top: 4px;
+  margin-bottom: 10px;
+}
+
+.section-head p {
+  color: var(--text-muted);
+  font-size: 14px;
+  max-width: 580px;
+  margin: 0 auto;
+}
+
+/* SERVICES GRID */
+.services-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 18px;
+}
+
+.service-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-line);
+  border-radius: 18px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: 0.3s ease;
+}
+
+.service-card:hover {
+  border-color: var(--border-gold);
+  background: var(--bg-card-hover);
+}
+
+.srv-icon-box {
+  width: 44px;
+  height: 44px;
+  background: rgba(245, 158, 11, 0.12);
+  color: var(--accent-gold);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+
+.service-card h3 {
+  font-size: 19px;
+  font-weight: 800;
+  margin-bottom: 8px;
+}
+
+.service-card p {
+  color: var(--text-muted);
+  font-size: 13.5px;
+  line-height: 1.55;
+  margin-bottom: 16px;
+}
+
+.srv-bullets {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-bottom: 18px;
+}
+
+.srv-bullets li {
+  font-size: 12.5px;
+  color: #cbd5e1;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.srv-bullets li i {
+  color: var(--accent-gold);
+  font-size: 11px;
+}
+
+.srv-cta-link {
+  text-decoration: none;
+  color: var(--accent-gold);
+  font-weight: 800;
+  font-size: 13px;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+/* WORKFLOW PROCESS */
+.workflow-row {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+}
+
+.step-card {
+  background: var(--bg-surface);
+  border: 1px solid var(--border-line);
+  border-radius: 16px;
+  padding: 22px;
+}
+
+.step-num {
+  font-size: 11.5px;
+  font-weight: 800;
+  color: var(--accent-gold);
+  background: rgba(245, 158, 11, 0.12);
+  padding: 3px 10px;
+  border-radius: 20px;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.step-card h4 {
+  font-size: 17px;
+  margin-bottom: 6px;
+}
+
+.step-card p {
+  font-size: 13px;
+  color: var(--text-muted);
+}
+
+/* BOTTOM CTA BANNER */
+.cta-banner {
+  background: linear-gradient(135deg, #131526, #1c1f38);
+  border: 1.5px solid var(--border-gold);
+  border-radius: 22px;
+  padding: 36px 20px;
+  text-align: center;
+  margin: 30px auto 60px;
+}
+
+.cta-banner h2 {
+  font-size: clamp(22px, 5.5vw, 32px);
+  margin-bottom: 10px;
+}
+
+.cta-banner p {
+  color: var(--text-muted);
+  font-size: 14px;
+  margin: 0 auto 20px;
+}
+
+/* FOOTER */
+footer {
+  background: #06070a;
+  border-top: 1px solid var(--border-line);
+  padding: 45px 6% 25px;
+  color: #fff;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+.footer-col h4 {
+  font-size: 15px;
+  font-weight: 800;
+  margin-bottom: 12px;
+  color: #fff;
+}
+
+.footer-col p {
+  color: #64748b;
+  font-size: 13px;
+}
+
+.footer-links {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #94a3b8;
+  font-size: 13px;
+}
+
+.footer-contact-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 13px;
+  color: #94a3b8;
+  margin-bottom: 8px;
+}
+
+.footer-contact-item i {
+  color: var(--accent-gold);
+}
+
+.footer-bottom {
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+  padding-top: 18px;
+  text-align: center;
+  color: #475569;
+  font-size: 12px;
+}
+
+/* FLOATING WHATSAPP BUTTON */
+.floating-wa-btn {
+  position: fixed;
+  right: 18px;
+  bottom: 18px;
+  width: 52px;
+  height: 52px;
+  background: #25D366;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 26px;
+  text-decoration: none;
+  box-shadow: 0 8px 25px rgba(37, 211, 102, 0.4);
+  z-index: 1000;
+}
+
+/* RESPONSIVE BREAKPOINTS */
+@media (min-width: 768px) {
+  .services-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .workflow-row {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .footer-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .stats-strip {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (min-width: 992px) {
+  nav {
+    padding: 16px 8%;
+  }
+  .hero-wrapper {
+    display: grid;
+    grid-template-columns: 1.15fr 0.85fr;
+    align-items: center;
+    padding: 60px 8% 80px;
+  }
+  .hero-content {
+    order: 1;
+  }
+  .offer-hero-card {
+    order: 2;
+  }
+  .services-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .footer-grid {
+    grid-template-columns: 1.5fr 1fr 1fr 1.2fr;
+  }
+}
+
+/* MOBILE RESPONSIVE FIXES (Below 768px) */
+@media (max-width: 767px) {
+  nav {
+    padding: 10px 4%;
+  }
+  .nav-links {
+    display: none;
+  }
+  .brand-logo {
+    font-size: 20px;
+  }
+  .brand-badge {
+    width: 30px;
+    height: 30px;
+    font-size: 14px;
+  }
+
+  .nav-action-btn {
+    padding: 7px 12px;
+    font-size: 11.5px;
+    gap: 4px;
+    border-radius: 20px;
+  }
+  .nav-action-btn .btn-full-txt {
+    display: none;
+  }
+  .nav-action-btn .btn-short-txt {
+    display: inline;
+  }
+
+  .hero-wrapper {
+    padding-top: 15px;
+  }
+  .offer-hero-card {
+    order: 1;
+    margin-bottom: 10px;
+  }
+  .hero-content {
+    order: 2;
+    text-align: left;
+  }
+  .hero-actions {
+    flex-direction: column;
+    width: 100%;
+  }
+  .btn-primary, .btn-ghost {
+    width: 100%;
+  }
+}
+
+@media (max-width: 380px) {
+  .brand-logo {
+    font-size: 18px;
+  }
+  .nav-action-btn {
+    padding: 6px 10px;
+    font-size: 10.5px;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav>
+  <div class="brand-logo">
+    <div class="brand-badge"><i class="fa-solid fa-dumbbell"></i></div>
+    Mahakal <span>Fitness Hub</span>
+  </div>
+
+  <div class="nav-links">
+    <a href="#">Home</a>
+    <a href="#services">Services</a>
+    <a href="#how-it-works">How It Works</a>
+    <a href="#contact">Contact</a>
+  </div>
+
+  <a href="#" data-wa class="nav-action-btn" target="_blank" rel="noopener">
+    <i class="fa-solid fa-tag"></i>
+    <span class="btn-full-txt">20% OFF Joining</span>
+    <span class="btn-short-txt">20% OFF</span>
+  </a>
+</nav>
+
+<!-- TOP WELCOME OFFER STRIP -->
+<div class="offer-top-strip">
+  <span class="offer-tag-btn"><i class="fa-solid fa-sparkles"></i> Special Offer</span>
+  <span>New Joining par paayein <strong>Flat 20% Discount!</strong></span>
+</div>
+
+<!-- HERO SECTION -->
+<div class="hero-wrapper">
+
+  <!-- MASSIVE TYPOGRAPHIC 20% OFF OFFER CARD -->
+  <a href="#" data-wa class="offer-hero-card" target="_blank" rel="noopener" title="Claim 20% Discount on WhatsApp">
+    <span class="card-top-tag"><i class="fa-solid fa-fire"></i> New Joining Special</span>
+    <div class="sub-call">Save Big With</div>
+    <div class="massive-offer">20% OFF</div>
+    <div class="massive-offer-sub">On New Joining</div>
+    
+    <div class="offer-feature-chips">
+      <span class="o-chip"><i class="fa-solid fa-check"></i> Expert Trainers</span>
+      <span class="o-chip"><i class="fa-solid fa-check"></i> Modern Equipment</span>
+      <span class="o-chip"><i class="fa-solid fa-check"></i> Personalized Diet</span>
+    </div>
+
+    <div class="card-cta-wa">
+      <i class="fa-brands fa-whatsapp"></i> Claim 20% OFF Offer Now
+    </div>
+  </a>
+
+  <!-- HERO CONTENT -->
+  <div class="hero-content">
+    <div class="hero-pill">
+      <i class="fa-solid fa-bolt"></i> Elite Fitness & Wellness Studio
+    </div>
+    <h1>Transform Your Body at <span>Mahakal Fitness Hub.</span></h1>
+    <p>Apni fitness journey ko shuru karein professional trainers aur world-class equipment ke sath. Aaj hi join karein aur payein special discount!</p>
+    
+    <div class="hero-highlights">
+      <div class="h-item"><i class="fa-solid fa-circle-check"></i> Certified Personal Trainers & Custom Workout Routines</div>
+      <div class="h-item"><i class="fa-solid fa-circle-check"></i> Flat 20% Discount on All New Memberships</div>
+      <div class="h-item"><i class="fa-solid fa-circle-check"></i> Complete Diet, Nutrition & Weight Management Support</div>
+    </div>
+
+    <div class="hero-actions">
+      <a href="#" data-wa class="btn-primary" target="_blank" rel="noopener">
+        <i class="fa-brands fa-whatsapp"></i> Book Free Trial (20% OFF)
+      </a>
+      <a href="#services" class="btn-ghost">
+        Explore Services
+      </a>
+    </div>
+  </div>
+
+</div>
+
+<!-- STATS STRIP -->
+<div class="stats-strip">
+  <div class="stat-cell offer-cell">
+    <div class="num">20% OFF</div>
+    <div class="lbl">New Joining Deal</div>
+  </div>
+  <div class="stat-cell">
+    <div class="num">Expert</div>
+    <div class="lbl">Personal Trainers</div>
+  </div>
+  <div class="stat-cell">
+    <div class="num">100%</div>
+    <div class="lbl">Custom Diet Plans</div>
+  </div>
+  <div class="stat-cell">
+    <div class="num">Advanced</div>
+    <div class="lbl">CrossFit & Strength Gear</div>
+  </div>
+</div>
+
+<!-- SERVICES GRID -->
+<section class="section" id="services">
+  <div class="section-head">
+    <span>Our Training Programs</span>
+    <h2>Professional Fitness Services</h2>
+    <p>Har new joining par 20% discount applicable hai. Apni pasandida service choose karein.</p>
+  </div>
+
+  <div class="services-grid">
+    <!-- 1. Personal Training -->
+    <div class="service-card">
+      <div>
+        <div class="srv-icon-box"><i class="fa-solid fa-user-gear"></i></div>
+        <h3>Personal Training</h3>
+        <p>1-on-1 expert guidance, custom workout plans, and continuous progress tracking to help you hit your fitness goals faster.</p>
+        <ul class="srv-bullets">
+          <li><i class="fa-solid fa-check"></i> Dedicated personal coach</li>
+          <li><i class="fa-solid fa-check"></i> Customized training schedule</li>
+          <li><i class="fa-solid fa-check"></i> Regular fitness assessment</li>
+        </ul>
+      </div>
+      <a href="#" data-wa class="srv-cta-link">Book Personal Training (20% OFF) <i class="fa-solid fa-arrow-right"></i></a>
+    </div>
+
+    <!-- 2. CrossFit & Strength Training -->
+    <div class="service-card">
+      <div>
+        <div class="srv-icon-box"><i class="fa-solid fa-dumbbell"></i></div>
+        <h3>CrossFit & Strength Training</h3>
+        <p>Build explosive power, stamina, and muscle endurance with heavy weights, functional movements, and high-intensity routines.</p>
+        <ul class="srv-bullets">
+          <li><i class="fa-solid fa-check"></i> Olympic lifting & functional racks</li>
+          <li><i class="fa-solid fa-check"></i> High-intensity endurance workouts</li>
+          <li><i class="fa-solid fa-check"></i> Safe technique supervision</li>
+        </ul>
+      </div>
+      <a href="#" data-wa class="srv-cta-link">Join Strength Training (20% OFF) <i class="fa-solid fa-arrow-right"></i></a>
+    </div>
+
+    <!-- 3. Yoga & Meditation Classes -->
+    <div class="service-card">
+      <div>
+        <div class="srv-icon-box"><i class="fa-solid fa-spa"></i></div>
+        <h3>Yoga & Meditation Classes</h3>
+        <p>Enhance your mental peace, flexibility, and core stability through guided yogaasanas and deep meditation sessions.</p>
+        <ul class="srv-bullets">
+          <li><i class="fa-solid fa-check"></i> Flexibility & mobility routines</li>
+          <li><i class="fa-solid fa-check"></i> Stress relief & breathing techniques</li>
+          <li><i class="fa-solid fa-check"></i> Suitable for all age groups</li>
+        </ul>
+      </div>
+      <a href="#" data-wa class="srv-cta-link">Explore Yoga Classes (20% OFF) <i class="fa-solid fa-arrow-right"></i></a>
+    </div>
+
+    <!-- 4. Weight Loss/Gain Programs -->
+    <div class="service-card">
+      <div>
+        <div class="srv-icon-box"><i class="fa-solid fa-scale-balanced"></i></div>
+        <h3>Weight Loss/Gain Programs</h3>
+        <p>Scientific transformation programs designed specifically for healthy fat reduction or clean muscle mass building.</p>
+        <ul class="srv-bullets">
+          <li><i class="fa-solid fa-check"></i> Target-oriented body transformation</li>
+          <li><i class="fa-solid fa-check"></i> Weekly BMI & body fat monitoring</li>
+          <li><i class="fa-solid fa-check"></i> Sustainable fitness habits</li>
+        </ul>
+      </div>
+      <a href="#" data-wa class="srv-cta-link">Start Weight Program (20% OFF) <i class="fa-solid fa-arrow-right"></i></a>
+    </div>
+
+    <!-- 5. Diet & Nutrition Planning -->
+    <div class="service-card" style="grid-column: 1 / -1; max-width: 100%;">
+      <div>
+        <div class="srv-icon-box"><i class="fa-solid fa-carrot"></i></div>
+        <h3>Diet & Nutrition Planning</h3>
+        <p>Get customized meal plans tailored to your metabolism, daily routine, and fitness objectives for optimal physical results.</p>
+        <ul class="srv-bullets">
+          <li><i class="fa-solid fa-check"></i> Macro-calculated Indian & western meal plans</li>
+          <li><i class="fa-solid fa-check"></i> Supplement guidance & hydration tracking</li>
+          <li><i class="fa-solid fa-check"></i> Periodic diet modifications</li>
+        </ul>
+      </div>
+      <a href="#" data-wa class="srv-cta-link">Get Custom Diet Plan (20% OFF) <i class="fa-solid fa-arrow-right"></i></a>
+    </div>
+  </div>
+</section>
+
+<!-- WORKFLOW SECTION -->
+<section class="section" id="how-it-works" style="padding-top: 10px;">
+  <div class="section-head">
+    <span>Simple 3-Step Process</span>
+    <h2>How to Join Mahakal Fitness Hub</h2>
+    <p>WhatsApp par message karein aur 20% discount offer lock karein.</p>
+  </div>
+
+  <div class="workflow-row">
+    <div class="step-card">
+      <div class="step-num">Step 01</div>
+      <h4>Connect on WhatsApp</h4>
+      <p>Apni pasand ki service share karein aur 20% discount coupon claim karein.</p>
+    </div>
+    <div class="step-card">
+      <div class="step-num">Step 02</div>
+      <h4>Gym Visit & Assessment</h4>
+      <p>Hamare expert trainer se milkar apni body goals aur fitness check-up karayein.</p>
+    </div>
+    <div class="step-card">
+      <div class="step-num">Step 03</div>
+      <h4>Start Your Transformation</h4>
+      <p>Apni membership activate karein aur apni fitness journey shuru karein!</p>
+    </div>
+  </div>
+</section>
+
+<!-- BOTTOM CTA BANNER -->
+<div class="cta-banner">
+  <h2>New Joining Par Paayein Flat 20% Discount</h2>
+  <p>Abhi WhatsApp par direct connect karein aur Mahakal Fitness Hub ki membership secure karein.</p>
+  <a href="#" data-wa class="btn-primary" target="_blank" rel="noopener">
+    <i class="fa-brands fa-whatsapp"></i> Claim 20% Discount Now
+  </a>
+</div>
+
+<!-- FOOTER SECTION -->
+<footer id="contact">
+  <div class="footer-grid">
+    <div class="footer-col">
+      <div class="brand-logo" style="margin-bottom: 14px;">
+        <div class="brand-badge"><i class="fa-solid fa-dumbbell"></i></div>
+        Mahakal <span>Fitness Hub</span>
+      </div>
+      <p>Professional gym training, CrossFit, yoga sessions, and custom diet planning for complete physical transformation.</p>
+    </div>
+
+    <div class="footer-col">
+      <h4>Quick Links</h4>
+      <ul class="footer-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#services">Fitness Services</a></li>
+        <li><a href="#how-it-works">How It Works</a></li>
+        <li><a href="#" data-wa>Join Now</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h4>Our Programs</h4>
+      <ul class="footer-links">
+        <li><a href="#" data-wa>Personal Training</a></li>
+        <li><a href="#" data-wa>CrossFit & Strength</a></li>
+        <li><a href="#" data-wa>Yoga & Meditation</a></li>
+        <li><a href="#" data-wa>Weight Loss/Gain</a></li>
+        <li><a href="#" data-wa>Diet & Nutrition</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h4>Contact & Support</h4>
+      <div class="footer-contact-item">
+        <i class="fa-solid fa-location-dot"></i>
+        <span>Mahakal Fitness Hub Studio</span>
+      </div>
+      <div class="footer-contact-item">
+        <i class="fa-brands fa-whatsapp"></i>
+        <span>Active WhatsApp Booking Desk</span>
+      </div>
+      <div class="footer-contact-item">
+        <i class="fa-solid fa-tag" style="color: var(--accent-gold);"></i>
+        <span style="color: var(--accent-gold);">20% OFF New Joining Active</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2026 Mahakal Fitness Hub. All Rights Reserved. Professional Fitness & Wellness Center.</p>
+  </div>
+</footer>
+
+<!-- FLOATING WHATSAPP BUTTON -->
+<a href="#" data-wa class="floating-wa-btn" target="_blank" rel="noopener" aria-label="Contact Mahakal Fitness Hub on WhatsApp">
+  <i class="fa-brands fa-whatsapp"></i>
+</a>
+
+<!-- JAVASCRIPT LOGIC -->
+<script>
+  const phoneNumber = ""; 
+  const message = encodeURIComponent("Hello Mahakal Fitness Hub! Mujhe gym membership join karni hai aur '20% discount on new joining' offer claim karna hai.");
+  const whatsappUrl = `https://wa.me/${phoneNumber}?text=${message}`;
+
+  document.querySelectorAll("[data-wa]").forEach(function(link) {
+    link.href = whatsappUrl;
+  });
+</script>
+
+</body>
+</html>
